@@ -41,3 +41,13 @@ Finally, update the waybar
 ```sh
 killall waybar && waybar & disown
 ```
+
+If you want to ues the starship configuration, simply do:
+
+```sh
+```sh
+cp -r ~/.config/starship.toml ~/.config/waybar.backup
+cp startship/startship.toml ~/.config/starship.toml
+```
+```
+

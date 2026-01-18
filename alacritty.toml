@@ -1,7 +1,7 @@
 # ────────────────────────────────────────────────────────────
 # Omarchy black_arch Theme for Alacritty
-# By Ankur
-# https://github.com/ankur311sudo
+# By DanielLob-o
+# https://github.com/DanielLob-o/black_arch_jdsl
 # ────────────────────────────────────────────────────────────
 
 [window]
@@ -13,35 +13,38 @@ decorations = "none"
 [font]
 size = 12.0
 
+# ────────────────────────────────────────────────────────────
+# COLORS: BLACK POISON
+# ────────────────────────────────────────────────────────────
 
 [colors.primary]
+background = "#0d0d15"  # Matches your Ghostty background
 foreground = "#ffffff"
-background = "#000000"
 
 [colors.selection]
-text = "#000000"
-background = "#ffffff"
+text = "#ffffff"        # Ghostty selection-foreground
+background = "#b32bfb"  # Ghostty selection-background (Your Purple)
 
 [colors.cursor]
-text = "#000000"
-cursor = "#ffffff"
+text = "#0d0d15"        # Text inside the cursor (Dark to contrast white)
+cursor = "#ffffff"      # The cursor block itself
 
 [colors.normal]
-black   = "#262626"
-red     = "#646464"
-green   = "#8e8e8e"
-yellow  = "#b9b9b9"
-blue    = "#989898"
-magenta = "#747474"
-cyan    = "#585858"
-white   = "#d4d4d4"
+black   = "#101010"     # Slot 0
+red     = "#ff3333"     # Slot 1
+green   = "#00e676"     # Slot 2 (Acid Green)
+yellow  = "#ffd700"     # Slot 3
+blue    = "#6b4cff"     # Slot 4 (Electric Indigo)
+magenta = "#b32bfb"     # Slot 5 (Hero Purple)
+cyan    = "#00e5ff"     # Slot 6
+white   = "#e0e0e0"     # Slot 7
 
 [colors.bright]
-black   = "#262626"
-red     = "#646464"
-green   = "#8e8e8e"
-yellow  = "#b9b9b9"
-blue    = "#989898"
-magenta = "#747474"
-cyan    = "#585858"
-white   = "#d4d4d4"
+black   = "#303030"     # Slot 8
+red     = "#ff5555"     # Slot 9
+green   = "#69ff00"     # Slot 10 (Radioactive Green)
+yellow  = "#ffff00"     # Slot 11
+blue    = "#7a5dd5"     # Slot 12
+magenta = "#e056fd"     # Slot 13
+cyan    = "#80faff"     # Slot 14
+white   = "#ffffff"     # Slot 15
