@@ -10,15 +10,15 @@ A dead simple theme for the digital minimalist with just the necessary colors to
 To install this theme using the Omarchy Theme installer:
 
 ```sh
-omarchy-theme-install https://github.com/DanielLob-o/omarchy-black-poison.git
+omarchy-theme-install https://github.com/DanielLob-o/omarchy-black-poison-theme.git
 ```
 
 ### Manual Installation
 
 Clone the repository:
 ```sh
-git clone https://github.com/DanielLob-o/omarchy-black-poison.git
-cd omarchy-black-poison
+git clone https://github.com/DanielLob-o/omarchy-black-poison-theme.git
+cd omarchy-black-poison-theme
 ```
 
 ### Configuration Details
