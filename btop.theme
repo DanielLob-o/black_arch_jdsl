@@ -1,0 +1,73 @@
+# ────────────────────────────────────────────────────────────
+# Bashtop Theme - Functional Traffic Light
+# Green (Low) -> Yellow (Mid) -> Red (High)
+# ────────────────────────────────────────────────────────────
+
+# Background (leave empty for terminal’s black/transparency)
+theme[main_bg]=""
+
+# Main text — white
+theme[main_fg]="#FFFFFF"
+
+# Titles — bold white
+theme[title]="#FFFFFF"
+
+# Highlight text — Cyan (makes selected values pop)
+theme[hi_fg]="#00FFFF"
+
+# Selected item background — Dark Gray
+theme[selected_bg]="#404040"
+theme[selected_fg]="#FFFFFF"
+
+# Dim/inactive text — Gray
+theme[inactive_fg]="#666666"
+
+# Misc info — Light Blue
+theme[proc_misc]="#00BFFF"
+
+# Box outlines — Dark Gray (subtle framing)
+theme[cpu_box]="#444444"
+theme[mem_box]="#444444"
+theme[net_box]="#444444"
+theme[proc_box]="#444444"
+theme[div_line]="#444444"
+
+# ────────────────────────────────────────────────────────────
+# THE GRADIENTS (Green -> Yellow -> Red)
+# ────────────────────────────────────────────────────────────
+
+# Temperature
+theme[temp_start]="#00FF00"
+theme[temp_mid]="#FFFF00"
+theme[temp_end]="#FF0000"
+
+# CPU
+theme[cpu_start]="#00FF00"
+theme[cpu_mid]="#FFFF00"
+theme[cpu_end]="#FF0000"
+
+# Mem/Disk Free (Green means lots of space, Red means full)
+theme[free_start]="#00FF00"
+theme[free_mid]="#FFFF00"
+theme[free_end]="#FF0000"
+
+theme[cached_start]="#00FF00"
+theme[cached_mid]="#FFFF00"
+theme[cached_end]="#FF0000"
+
+theme[available_start]="#00FF00"
+theme[available_mid]="#FFFF00"
+theme[available_end]="#FF0000"
+
+theme[used_start]="#00FF00"
+theme[used_mid]="#FFFF00"
+theme[used_end]="#FF0000"
+
+# Download/Upload
+theme[download_start]="#00FF00"
+theme[download_mid]="#FFFF00"
+theme[download_end]="#FF0000"
+
+theme[upload_start]="#00FF00"
+theme[upload_mid]="#FFFF00"
+theme[upload_end]="#FF0000"
